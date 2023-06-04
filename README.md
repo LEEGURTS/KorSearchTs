@@ -1,5 +1,11 @@
 # 자바스크립트 한글 검색 관련 라이브러리
 
+<https://www.npmjs.com/package/korsearch>
+
+```bash
+npm i korsearch
+```
+
 ## 자바스크립트 상에서 한글검색시에 조금 더 편리하도록 지원하는 라이브러리입니다.
 
 ### 함수

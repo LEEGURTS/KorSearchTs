@@ -7,7 +7,7 @@ on:
 
 jobs:
   update-publish:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v3
         with:
@@ -31,8 +31,7 @@ jobs:
           node-version: 18
       - name: Npm Publish
         run: |
-          npm ci
-          npm run build
+          yarn build
       - uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
